@@ -1,0 +1,527 @@
+2016-08-11 15:36:25 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 86]
+Request URL: /published
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:26 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /published
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 86)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:36:26 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 86]
+Request URL: /debug_kit/toolbar/ec33cbcf-c139-4340-9aa9-f1e549a07cb0
+Referer URL: http://localhost:8765/published
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:26 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /debug_kit/toolbar/ec33cbcf-c139-4340-9aa9-f1e549a07cb0
+Referer URL: http://localhost:8765/published
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 86)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:36:26 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 86]
+Request URL: /debug_kit/toolbar/848b1d32-279f-4f8d-bb17-a05d1300d015
+Referer URL: http://localhost:8765/debug_kit/toolbar/ec33cbcf-c139-4340-9aa9-f1e549a07cb0
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:26 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /debug_kit/toolbar/848b1d32-279f-4f8d-bb17-a05d1300d015
+Referer URL: http://localhost:8765/debug_kit/toolbar/ec33cbcf-c139-4340-9aa9-f1e549a07cb0
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 86)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:36:27 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 86]
+Request URL: /debug_kit/toolbar/0a1e07d9-6bdc-4eaf-a9fc-5d342167e899
+Referer URL: http://localhost:8765/debug_kit/toolbar/848b1d32-279f-4f8d-bb17-a05d1300d015
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:27 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /debug_kit/toolbar/0a1e07d9-6bdc-4eaf-a9fc-5d342167e899
+Referer URL: http://localhost:8765/debug_kit/toolbar/848b1d32-279f-4f8d-bb17-a05d1300d015
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 86)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:36:27 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 86]
+Request URL: /debug_kit/toolbar/d6eb3b4b-1670-4926-95d7-b920e4d019ed
+Referer URL: http://localhost:8765/debug_kit/toolbar/0a1e07d9-6bdc-4eaf-a9fc-5d342167e899
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:27 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /debug_kit/toolbar/d6eb3b4b-1670-4926-95d7-b920e4d019ed
+Referer URL: http://localhost:8765/debug_kit/toolbar/0a1e07d9-6bdc-4eaf-a9fc-5d342167e899
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 86)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:36:27 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 86]
+Request URL: /debug_kit/toolbar/f07a4378-c3a6-4780-8ebe-a63ce8a89fc8
+Referer URL: http://localhost:8765/debug_kit/toolbar/d6eb3b4b-1670-4926-95d7-b920e4d019ed
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:28 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /debug_kit/toolbar/f07a4378-c3a6-4780-8ebe-a63ce8a89fc8
+Referer URL: http://localhost:8765/debug_kit/toolbar/d6eb3b4b-1670-4926-95d7-b920e4d019ed
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 86)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:36:28 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 86]
+Request URL: /debug_kit/toolbar/a21560c5-f49a-4ec6-be4e-f42e2f3beadf
+Referer URL: http://localhost:8765/debug_kit/toolbar/f07a4378-c3a6-4780-8ebe-a63ce8a89fc8
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:28 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /debug_kit/toolbar/a21560c5-f49a-4ec6-be4e-f42e2f3beadf
+Referer URL: http://localhost:8765/debug_kit/toolbar/f07a4378-c3a6-4780-8ebe-a63ce8a89fc8
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 86)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:36:28 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 86]
+Request URL: /debug_kit/toolbar/5acbbb7f-104e-4b32-98b6-2f551c547ec3
+Referer URL: http://localhost:8765/debug_kit/toolbar/a21560c5-f49a-4ec6-be4e-f42e2f3beadf
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:28 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /debug_kit/toolbar/5acbbb7f-104e-4b32-98b6-2f551c547ec3
+Referer URL: http://localhost:8765/debug_kit/toolbar/a21560c5-f49a-4ec6-be4e-f42e2f3beadf
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 86)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:36:28 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 86]
+Request URL: /debug_kit/toolbar/76595169-4bb9-42e2-b127-0214e1dc1ef5
+Referer URL: http://localhost:8765/debug_kit/toolbar/5acbbb7f-104e-4b32-98b6-2f551c547ec3
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:29 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /debug_kit/toolbar/76595169-4bb9-42e2-b127-0214e1dc1ef5
+Referer URL: http://localhost:8765/debug_kit/toolbar/5acbbb7f-104e-4b32-98b6-2f551c547ec3
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 86)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:36:29 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 86]
+Request URL: /debug_kit/toolbar/f95c627d-bf38-4f4d-875e-bcc944e48e1f
+Referer URL: http://localhost:8765/debug_kit/toolbar/76595169-4bb9-42e2-b127-0214e1dc1ef5
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:29 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /debug_kit/toolbar/f95c627d-bf38-4f4d-875e-bcc944e48e1f
+Referer URL: http://localhost:8765/debug_kit/toolbar/76595169-4bb9-42e2-b127-0214e1dc1ef5
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 86)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:36:43 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 87]
+Request URL: /published
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:43 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /published
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 87)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:36:43 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/24b9bfd3-e352-462e-95d1-f49969582bce
+Referer URL: http://localhost:8765/published
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:43 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /debug_kit/toolbar/24b9bfd3-e352-462e-95d1-f49969582bce
+Referer URL: http://localhost:8765/published
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 87)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:36:43 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/aca21e33-ccf4-4831-8688-bb35e99e5331
+Referer URL: http://localhost:8765/debug_kit/toolbar/24b9bfd3-e352-462e-95d1-f49969582bce
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:44 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /debug_kit/toolbar/aca21e33-ccf4-4831-8688-bb35e99e5331
+Referer URL: http://localhost:8765/debug_kit/toolbar/24b9bfd3-e352-462e-95d1-f49969582bce
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 87)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:36:44 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/31e1cee9-1d4f-45b1-8286-96e8145e2958
+Referer URL: http://localhost:8765/debug_kit/toolbar/aca21e33-ccf4-4831-8688-bb35e99e5331
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:44 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /debug_kit/toolbar/31e1cee9-1d4f-45b1-8286-96e8145e2958
+Referer URL: http://localhost:8765/debug_kit/toolbar/aca21e33-ccf4-4831-8688-bb35e99e5331
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 87)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:36:44 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/0e2e8ddd-4fb9-4266-b521-b9f1f661e7c2
+Referer URL: http://localhost:8765/debug_kit/toolbar/31e1cee9-1d4f-45b1-8286-96e8145e2958
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:44 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /debug_kit/toolbar/0e2e8ddd-4fb9-4266-b521-b9f1f661e7c2
+Referer URL: http://localhost:8765/debug_kit/toolbar/31e1cee9-1d4f-45b1-8286-96e8145e2958
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 87)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:36:44 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/1c133c7d-5bca-47d1-a0f2-0910d9ca6f20
+Referer URL: http://localhost:8765/debug_kit/toolbar/0e2e8ddd-4fb9-4266-b521-b9f1f661e7c2
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:45 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /debug_kit/toolbar/1c133c7d-5bca-47d1-a0f2-0910d9ca6f20
+Referer URL: http://localhost:8765/debug_kit/toolbar/0e2e8ddd-4fb9-4266-b521-b9f1f661e7c2
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 87)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:36:45 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/d02fe70e-2538-499f-9e8c-8ea5be67470f
+Referer URL: http://localhost:8765/debug_kit/toolbar/1c133c7d-5bca-47d1-a0f2-0910d9ca6f20
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:45 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /debug_kit/toolbar/d02fe70e-2538-499f-9e8c-8ea5be67470f
+Referer URL: http://localhost:8765/debug_kit/toolbar/1c133c7d-5bca-47d1-a0f2-0910d9ca6f20
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 87)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:36:45 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/4de84e2a-458e-40c0-95f8-e602cf54c583
+Referer URL: http://localhost:8765/debug_kit/toolbar/d02fe70e-2538-499f-9e8c-8ea5be67470f
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:45 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /debug_kit/toolbar/4de84e2a-458e-40c0-95f8-e602cf54c583
+Referer URL: http://localhost:8765/debug_kit/toolbar/d02fe70e-2538-499f-9e8c-8ea5be67470f
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 87)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:36:45 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/141a89e9-7118-45c2-b803-6787d63b7cae
+Referer URL: http://localhost:8765/debug_kit/toolbar/4de84e2a-458e-40c0-95f8-e602cf54c583
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:45 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /debug_kit/toolbar/141a89e9-7118-45c2-b803-6787d63b7cae
+Referer URL: http://localhost:8765/debug_kit/toolbar/4de84e2a-458e-40c0-95f8-e602cf54c583
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 87)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:36:46 Error: Fatal Error (4): syntax error, unexpected 'Plugin' (T_STRING) in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/65d5364f-7fb9-477e-937b-b915bbd376ee
+Referer URL: http://localhost:8765/debug_kit/toolbar/141a89e9-7118-45c2-b803-6787d63b7cae
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:36:46 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Plugin' (T_STRING)
+Request URL: /debug_kit/toolbar/65d5364f-7fb9-477e-937b-b915bbd376ee
+Referer URL: http://localhost:8765/debug_kit/toolbar/141a89e9-7118-45c2-b803-6787d63b7cae
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 87)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:39:38 Error: Fatal Error (1): Call to a member function layout() on boolean in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\src\Controller\PublishController.php, line 40]
+Request URL: /published
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 15:39:38 Error: [Cake\Error\FatalErrorException] Call to a member function layout() on boolean
+Request URL: /published
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 15:41:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/materialize.css
+Referer URL: http://localhost:8765/published
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-11 15:42:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/materialize.css
+Referer URL: http://localhost:8765/published
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-11 15:43:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/materialize.css
+Referer URL: http://localhost:8765/published
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-11 15:49:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Sass.html could not be found.
+Exception Attributes: array (
+  'class' => 'Sass.html',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /sass.html
+Referer URL: http://localhost:8765/published
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-11 16:06:23 Error: [Cake\Controller\Exception\MissingActionException] Action PublishController::add() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PublishController',
+  'action' => 'add',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /published/agregar
+Referer URL: http://localhost:8765/published
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PublishController))
+#2 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-11 17:12:57 Error: Fatal Error (4): syntax error, unexpected '"id"' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\src\Template\Publish\add.ctp, line 7]
+Request URL: /Cakephp3-Elephant.io-Socket.io/published/agregar
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 17:12:58 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '"id"' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+Request URL: /Cakephp3-Elephant.io-Socket.io/published/agregar
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-11 18:10:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /Cakephp3-Elephant.io-Socket.io/js/SocketClient.js
+Referer URL: https://localhost/Cakephp3-Elephant.io-Socket.io/published/agregar
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-11 18:10:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /Cakephp3-Elephant.io-Socket.io/js/SocketClient.js
+Referer URL: https://localhost/Cakephp3-Elephant.io-Socket.io/published
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-11 18:20:22 Error: Fatal Error (1): Call to a member function requireSecure() on boolean in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\src\Controller\PublishController.php, line 63]
+Request URL: /Cakephp3-Elephant.io-Socket.io/published
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-11 18:20:22 Error: [Cake\Error\FatalErrorException] Call to a member function requireSecure() on boolean
+Request URL: /Cakephp3-Elephant.io-Socket.io/published
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 63)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
