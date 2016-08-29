@@ -36,6 +36,5 @@ El siguiente codigo muestra como añadir los metodos para enviar el evento a Soc
         } catch (ServerConnectionFailureException $e) {
             echo "Error de conexion";
             exit();
-            //$this->ErrorConnectionSocket($e);
         } 
     }
