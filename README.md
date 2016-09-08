@@ -1,7 +1,7 @@
 ##Elephant.io para Cakephp3x
 ##Configuracion
 
-Descargar Elephant.io -> git clone git://github.com/Wisembly/elephant.io.git.
+Descargar Elephant.io -> git clone https://github.com/Wisembly/elephant.io.git.
 
 Mover el contenido a la carpeta vendor.
 
