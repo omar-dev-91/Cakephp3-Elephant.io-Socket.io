@@ -1,6 +1,6 @@
-var http=require('http');
+var http = require('http');
 var servidor = http.createServer();
-var io=require('socket.io').listen(servidor);
+var io = require('socket.io').listen(servidor);
 var port = 5000;
 
 io.sockets.on('connection', function(socket)
