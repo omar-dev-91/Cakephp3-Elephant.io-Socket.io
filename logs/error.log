@@ -525,3 +525,22 @@ Stack Trace:
 #2 {main}
 
 
+2016-09-09 16:25:18 Error: Fatal Error (1): Call to undefined method App\Controller\PublishController::ErrorConnectionSocket() in [C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\src\Controller\PublishController.php, line 34]
+Request URL: /published/agregar
+Referer URL: http://localhost:3000/published/agregar
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-09 16:25:18 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\PublishController::ErrorConnectionSocket()
+Request URL: /published/agregar
+Referer URL: http://localhost:3000/published/agregar
+Stack Trace:
+#0 C:\xampp\htdocs\Cakephp3-Elephant.io-Socket.io\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 34)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+

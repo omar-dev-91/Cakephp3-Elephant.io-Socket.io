@@ -26,13 +26,12 @@ class PublishController extends AppController
     {
       $Elephant = new Elephant(new Version1X('http://128.76.8.38:5000'));
       try {
-          $Elephant->initialize();
-          $Elephant->emit('cake_event',[ 'arg' => $this->request->data['message'] ]);
-          $Elephant->close();
+        $Elephant->initialize();
+        $Elephant->emit('cake_event',[ 'arg' => $this->request->data['message'] ]);
+        $Elephant->close();
+        $this->Flash->success(__('Message sent.'));
       } catch (ServerConnectionFailureException $e) {
-          echo "Error de conexion";
-          exit();
-          $this->ErrorConnectionSocket($e);
+        $this->Flash->error(__('An error occurred while trying to establish a connection to the server.'));
       }
     }
   }

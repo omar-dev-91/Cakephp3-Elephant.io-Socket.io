@@ -2,6 +2,9 @@
 $(document).ready(function()
 {
     $(".button-collapse").sideNav();
+    $(".flash-message").click(function(){
+      $(this).fadeOut("slow")
+    });
 });
 function notification(message)
 {

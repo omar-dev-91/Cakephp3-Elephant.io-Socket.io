@@ -5,6 +5,7 @@
     <title>Publishing</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <?= $this->Html->css('materialize.min') ?>
+    <?= $this->Html->css('styles') ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="http://128.76.8.38:5000/socket.io/socket.io.js" type="text/javascript"></script>
     <?= $this->Html->script('materialize.min') ?>
