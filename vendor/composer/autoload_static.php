@@ -18,6 +18,10 @@ class ComposerStaticInit1fb8974f4a4d1eb422ccf5dff44a0f16
     );
 
     public static $prefixLengthsPsr4 = array (
+        'Z' => 
+        array (
+            'Zend\\Diactoros\\' => 15,
+        ),
         'X' => 
         array (
             'XdgBaseDir\\' => 11,
@@ -34,12 +38,17 @@ class ComposerStaticInit1fb8974f4a4d1eb422ccf5dff44a0f16
         'P' => 
         array (
             'Psy\\' => 4,
+            'Psr\\Http\\Message\\' => 17,
             'PhpParser\\' => 10,
             'Phinx\\' => 6,
         ),
         'M' => 
         array (
             'Migrations\\' => 11,
+        ),
+        'E' => 
+        array (
+            'ElephantIO\\' => 11,
         ),
         'D' => 
         array (
@@ -66,6 +75,10 @@ class ComposerStaticInit1fb8974f4a4d1eb422ccf5dff44a0f16
     );
 
     public static $prefixDirsPsr4 = array (
+        'Zend\\Diactoros\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-diactoros/src',
+        ),
         'XdgBaseDir\\' => 
         array (
             0 => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src',
@@ -98,6 +111,10 @@ class ComposerStaticInit1fb8974f4a4d1eb422ccf5dff44a0f16
         array (
             0 => __DIR__ . '/..' . '/psy/psysh/src/Psy',
         ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
@@ -109,6 +126,11 @@ class ComposerStaticInit1fb8974f4a4d1eb422ccf5dff44a0f16
         'Migrations\\' => 
         array (
             0 => __DIR__ . '/..' . '/cakephp/migrations/src',
+        ),
+        'ElephantIO\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wisembly/elephant.io/src',
+            1 => __DIR__ . '/..' . '/wisembly/elephant.io/test',
         ),
         'DebugKit\\Test\\Fixture\\' => 
         array (

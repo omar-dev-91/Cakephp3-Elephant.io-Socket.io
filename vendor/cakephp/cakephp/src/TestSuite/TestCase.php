@@ -20,13 +20,14 @@ use Cake\Event\EventManager;
 use Cake\ORM\Exception\MissingTableClassException;
 use Cake\ORM\TableRegistry;
 use Cake\Routing\Router;
+use Cake\TestSuite\Constraint\EventFired;
+use Cake\TestSuite\Constraint\EventFiredWith;
 use Cake\Utility\Inflector;
 use Exception;
 use PHPUnit_Framework_TestCase;
 
 /**
  * Cake TestCase class
- *
  */
 abstract class TestCase extends PHPUnit_Framework_TestCase
 {
@@ -82,6 +83,7 @@ abstract class TestCase extends PHPUnit_Framework_TestCase
         if ($shouldSkip) {
             $this->markTestSkipped($message);
         }
+
         return $shouldSkip;
     }
 
@@ -144,7 +146,7 @@ abstract class TestCase extends PHPUnit_Framework_TestCase
      * Asserts that a global event was fired. You must track events in your event manager for this assertion to work
      *
      * @param string $name Event name
-     * @param EventManager $eventManager Event manager to check, defaults to global event manager
+     * @param EventManager|null $eventManager Event manager to check, defaults to global event manager
      * @param string $message Assertion failure message
      * @return void
      */
@@ -153,7 +155,7 @@ abstract class TestCase extends PHPUnit_Framework_TestCase
         if (!$eventManager) {
             $eventManager = EventManager::instance();
         }
-        $this->assertThat($name, new Constraint\EventFired($eventManager), $message);
+        $this->assertThat($name, new EventFired($eventManager), $message);
     }
 
     /**
@@ -164,7 +166,7 @@ abstract class TestCase extends PHPUnit_Framework_TestCase
      * @param string $name Event name
      * @param string $dataKey Data key
      * @param string $dataValue Data value
-     * @param EventManager $eventManager Event manager to check, defaults to global event manager
+     * @param EventManager|null $eventManager Event manager to check, defaults to global event manager
      * @param string $message Assertion failure message
      * @return void
      */
@@ -173,7 +175,7 @@ abstract class TestCase extends PHPUnit_Framework_TestCase
         if (!$eventManager) {
             $eventManager = EventManager::instance();
         }
-        $this->assertThat($name, new Constraint\EventFiredWith($eventManager, $dataKey, $dataValue), $message);
+        $this->assertThat($name, new EventFiredWith($eventManager, $dataKey, $dataValue), $message);
     }
 
     /**
@@ -496,11 +498,13 @@ abstract class TestCase extends PHPUnit_Framework_TestCase
                     debug($regex);
                 }
                 $this->assertRegExp($expression, $string, sprintf('Item #%d / regex #%d failed: %s', $itemNum, $i, $description));
+
                 return false;
             }
         }
 
         $this->assertTrue(true, '%s');
+
         return true;
     }
 
@@ -537,6 +541,7 @@ abstract class TestCase extends PHPUnit_Framework_TestCase
             }
             $len = count($asserts);
         } while ($len > 0);
+
         return $string;
     }
 
@@ -612,6 +617,7 @@ abstract class TestCase extends PHPUnit_Framework_TestCase
         if (!$condition) {
             $this->markTestSkipped($message);
         }
+
         return $condition;
     }
 
@@ -658,7 +664,12 @@ abstract class TestCase extends PHPUnit_Framework_TestCase
             }
         }
 
+        if (stripos($mock->table(), 'mock') === 0) {
+            $mock->table(Inflector::tableize($baseClass));
+        }
+
         TableRegistry::set($baseClass, $mock);
+
         return $mock;
     }
 }

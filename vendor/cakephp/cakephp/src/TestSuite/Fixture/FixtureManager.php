@@ -25,7 +25,6 @@ use UnexpectedValueException;
 
 /**
  * A factory class to manage the life cycle of test fixtures
- *
  */
 class FixtureManager
 {
@@ -386,6 +385,7 @@ class FixtureManager
                 $dbs[$fixture->connection()][$f] = $fixture;
             }
         }
+
         return $dbs;
     }
 
