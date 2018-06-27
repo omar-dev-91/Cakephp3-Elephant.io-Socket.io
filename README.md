@@ -1,5 +1,5 @@
-##Elephant.io para Cakephp3x
-##Instalar Elephant.io
+## Elephant.io para Cakephp3x
+## Instalar Elephant.io
 Abrir el archivo composer.json y en el objeto "require" agregar la siguiente dependencia:
 
     "wisembly/elephant.io": "~3.0"
@@ -15,7 +15,7 @@ En caso de que aparezca un error que indique que el archivo composer.phar no se 
     php composer-setup.php
     php -r "unlink('composer-setup.php');"
 
-##Configuración
+## Configuración
 
 Añadir las siguientes líneas al controlador donde se requiere la conexión con Socket.io
 
@@ -24,7 +24,7 @@ Añadir las siguientes líneas al controlador donde se requiere la conexión con
     use ElephantIO\Exception\ServerConnectionFailureException;
 
 
-##Uso
+## Uso
 
 El siguiente código muestra como añadir los métodos para enviar el evento a Socket.io
 
